@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  padding: 40px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-weight: bolder;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+button {
+  width: 175px;
+  padding: 10px 0;
+  border-width: 0px;
+  border-radius: 7px;
+  color: white;
+  background-color: blueviolet;
+}
+
+a:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+a.active {
+  color: blueviolet;
+}
+
+main {
+  width: 100vw;
+  min-height: calc(100vh - 116px);
+  display: flex;
+  overflow: hidden;
+  padding-left: 35px;
+}
+
+.HeroG {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.HeroD {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+span {
+  color: blueviolet;
+}
+
+.desc1 {
+  width: 75%;
+  font-size: 18px;
+}
+
+.inputbtn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+input {
+  height: 100%;
+  padding-left: 5px;
+}
